@@ -1,0 +1,29 @@
+.extra-section {
+    margin: 50px 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.extra-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.extra-section .achievement-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.extra-section .achievement-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.extra-section .achievement-images img:hover {
+    transform: scale(1.1);
+}
